@@ -12,6 +12,32 @@
   gap: .25rem;
 }
 
+/* Card Products */
+.card-product .card-img-top {
+  position: relative;
+
+  .badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
+
+.card-product .partner-name {
+  color: #60697b;
+  font-size: 12px;
+}
+
+.card-product .product-title {
+  color: var(--bs-blue);
+  margin-bottom: .25rem;
+  overflow: hidden;
+  display: -webkit-box;
+  line-clamp: 1;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
 footer .img-footer {
   max-width: 200px;
 }
