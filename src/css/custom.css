@@ -1,0 +1,21 @@
+.navbar-brand img {
+  max-width: 150px;
+}
+
+.navbar-collapse img {
+  max-width: 200px;
+}
+
+.navbar-other .btn-social {
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+}
+
+footer .img-footer {
+  max-width: 200px;
+}
+
+/* footer .widget-title {
+  color: #FFFFFF;
+} */
