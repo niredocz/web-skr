@@ -111,73 +111,401 @@
 		<!-- Blog -->
 		<section class="wrapper bg-light">
 			<div class="container py-14 py-md-16">
-				<h2 class="fs-15 text-uppercase text-muted mb-3">Our Clients</h2>
+				<!-- <h2 class="fs-15 text-uppercase text-muted mb-3">Our Clients</h2>
 				<div class="row gx-lg-8 mb-10 gy-5">
 					<div class="col-lg-6">
 						<h3 class="display-5 mb-0">We are trusted by over 300+ clients. Join them by using our services and grow your business.</h3>
 					</div>
-					<!-- /column -->
 					<div class="col-lg-6">
 						<p class="lead mb-0">Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Maecenas faucibus mollis interdum. Cras justo odio mollis.</p>
 					</div>
-					<!-- /column -->
 				</div>
-				<!-- /.row -->
 				<div class="row row-cols-2 row-cols-md-3 row-cols-xl-5 gx-lg-6 gy-6 justify-content-center">
 					<div class="col">
 						<div class="card shadow-lg h-100 align-items-center">
 							<div class="card-body align-items-center d-flex px-3 py-6 p-md-8">
 								<figure class="px-md-3 mb-0"><img src="src/img/brands/z1.png" alt="" /></figure>
 							</div>
-							<!--/.card-body -->
 						</div>
-						<!--/.card -->
 					</div>
-					<!--/column -->
 					<div class="col">
 						<div class="card shadow-lg h-100 align-items-center">
 							<div class="card-body align-items-center d-flex px-3 py-6 p-md-8">
 								<figure class="px-md-3 mb-0"><img src="src/img/brands/z2.png" alt="" /></figure>
 							</div>
-							<!--/.card-body -->
 						</div>
-						<!--/.card -->
 					</div>
-					<!--/column -->
 					<div class="col">
 						<div class="card shadow-lg h-100 align-items-center">
 							<div class="card-body align-items-center d-flex px-3 py-6 p-md-8">
 								<figure class="px-md-3 mb-0"><img src="src/img/brands/z3.png" alt="" /></figure>
 							</div>
-							<!--/.card-body -->
 						</div>
-						<!--/.card -->
 					</div>
-					<!--/column -->
 					<div class="col">
 						<div class="card shadow-lg h-100 align-items-center">
 							<div class="card-body align-items-center d-flex px-3 py-6 p-md-8">
 								<figure class="px-md-3 mb-0"><img src="src/img/brands/z4.png" alt="" /></figure>
 							</div>
-							<!--/.card-body -->
 						</div>
-						<!--/.card -->
 					</div>
-					<!--/column -->
 					<div class="col">
 						<div class="card shadow-lg h-100 align-items-center">
 							<div class="card-body align-items-center d-flex px-3 py-6 p-md-8">
 								<figure class="px-md-3 mb-0"><img src="src/img/brands/z5.png" alt="" /></figure>
 							</div>
-							<!--/.card-body -->
 						</div>
-						<!--/.card -->
 					</div>
-					<!--/column -->
+				</div> -->
+
+				<div class="row gx-lg-8 gx-xl-12">
+					<aside class="col-lg-3 sidebar mt-8 mt-lg-6">
+						<h4 class="widget-title mb-3">Filter</h4>
+						<form class="widget search-form">
+							<div class="form-label-group mb-0">
+								<input id="search-form" type="text" class="form-control" placeholder="Pencarian Produk">
+								<label for="search-form">Pencarian Produk</label>
+							</div>
+						</form>
+						<div class="widget">
+							<h4 class="widget-title mb-3">Kategori</h4>
+							<ul class="unordered-list bullet-primary text-reset mb-2">
+								<li><a href="#">Kursi Roda (21)</a></li>
+								<li><a href="#">Bed Pasien (19)</a></li>
+								<li><a href="#">Walker Lipat (16)</a></li>
+								<li><a href="#">Kruk Ketiak (7)</a></li>
+							</ul>
+							<a href="#" class="d-flex gap-1 align-items-center" style="width: fit-content;" data-bs-toggle="modal" data-bs-target="#modal-02">Lihat Lainnya <i class="uil uil-arrow-right"></i></a>
+						</div>
+						<div class="widget">
+							<h4 class="widget-title mb-3">Rentang Harga</h4>
+							
+							<div class="d-grid align-items-center gap-2">
+								<div class="form-label-group price-filter">
+									<span class="price-label">Rp.</span>
+									<input id="price-min" type="text" class="form-control" placeholder="Harga Minimum">
+									<label for="price-min">Harga Minimum</label>
+								</div>
+								<div class="form-label-group price-filter">
+									<span class="price-label">Rp.</span>
+									<input id="price-max" type="text" class="form-control" placeholder="Harga Maksimum">
+									<label for="price-max">Harga Maksimum</label>
+								</div>
+							</div>
+						</div>
+						<div class="widget">
+							<h4 class="widget-title mb-3">Nama Toko</h4>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="colomadu" checked>
+								<label class="form-check-label" style="cursor: pointer;" for="colomadu">Toko Colomadu</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="kartasura" checked>
+								<label class="form-check-label" style="cursor: pointer;" for="kartasura">Toko Kartasura</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="yogyakarta" checked>
+								<label class="form-check-label" style="cursor: pointer;" for="yogyakarta">Toko Yogyakarta</label>
+							</div>
+						</div>
+
+						<a href="#" class="btn btn-primary btn-sm mt-4">Terapkan Filter</a>
+					</aside>
+
+					<div class="col-lg-9" data-cue="fadeIn">
+						<div class="row g-4 isotope">
+							<div class="col-md-6 col-xl-4">
+								<figure class="itooltip itooltip-primary rounded shadow-lg" title='<h6 class="mb-0">Kursi Roda Standar Ruji</h6>'>
+									<a href="product-detail.html" class="card card-product">
+										 <figure class="card-img-top">
+											 <img class="img-fluid" src="https://sewainkursiroda.com/asset-img/products/01JTT4HDKM2HEA8C458Y5ZZ4S6.webp" srcset="https://sewainkursiroda.com/asset-img/products/01JTT4HDKM2HEA8C458Y5ZZ4S6.webp" alt="Kursi Roda Standar Ruji" />
+											 <span class="badge bg-primary rounded-pill">Disewa</span>
+										 </figure>
+										 <div class="card-body p-4">
+											 <div class="partner-name">Toko Colomadu</div>
+											 <h4 class="product-title" title="Kursi Roda Standar Ruji">Kursi Roda Standar Ruji</h4>
+											 <h5 class="mb-0">Rp. 190.000,00</h5>
+										 </div>
+									 </a>
+								</figure>
+							</div>
+							<div class="col-md-6 col-xl-4">
+								<figure class="itooltip itooltip-primary rounded shadow-lg" title='<h6 class="mb-0">Kursi Roda Standar Ruji</h6>'>
+									<a href="product-detail.html" class="card card-product">
+										 <figure class="card-img-top">
+											 <img class="img-fluid" src="https://sewainkursiroda.com/asset-img/products/01JTT4HDKM2HEA8C458Y5ZZ4S6.webp" srcset="https://sewainkursiroda.com/asset-img/products/01JTT4HDKM2HEA8C458Y5ZZ4S6.webp" alt="Kursi Roda Standar Ruji" />
+											 <span class="badge bg-primary rounded-pill">Disewa</span>
+										 </figure>
+										 <div class="card-body p-4">
+											 <div class="partner-name">Toko Colomadu</div>
+											 <h4 class="product-title" title="Kursi Roda Standar Ruji">Kursi Roda Standar Ruji</h4>
+											 <h5 class="mb-0">Rp. 190.000,00</h5>
+										 </div>
+									 </a>
+								</figure>
+							</div>
+							<div class="col-md-6 col-xl-4">
+								<figure class="itooltip itooltip-primary rounded shadow-lg" title='<h6 class="mb-0">Kursi Roda Standar Ruji</h6>'>
+									<a href="product-detail.html" class="card card-product">
+										 <figure class="card-img-top">
+											 <img class="img-fluid" src="https://sewainkursiroda.com/asset-img/products/01JTT4HDKM2HEA8C458Y5ZZ4S6.webp" srcset="https://sewainkursiroda.com/asset-img/products/01JTT4HDKM2HEA8C458Y5ZZ4S6.webp" alt="Kursi Roda Standar Ruji" />
+											 <span class="badge bg-primary rounded-pill">Disewa</span>
+										 </figure>
+										 <div class="card-body p-4">
+											 <div class="partner-name">Toko Colomadu</div>
+											 <h4 class="product-title" title="Kursi Roda Standar Ruji">Kursi Roda Standar Ruji</h4>
+											 <h5 class="mb-0">Rp. 190.000,00</h5>
+										 </div>
+									 </a>
+								</figure>
+							</div>
+							<div class="col-md-6 col-xl-4">
+								<figure class="itooltip itooltip-primary rounded shadow-lg" title='<h6 class="mb-0">Kursi Roda Standar Ruji</h6>'>
+									<a href="product-detail.html" class="card card-product">
+										 <figure class="card-img-top">
+											 <img class="img-fluid" src="https://sewainkursiroda.com/asset-img/products/01JTT4HDKM2HEA8C458Y5ZZ4S6.webp" srcset="https://sewainkursiroda.com/asset-img/products/01JTT4HDKM2HEA8C458Y5ZZ4S6.webp" alt="Kursi Roda Standar Ruji" />
+											 <span class="badge bg-primary rounded-pill">Disewa</span>
+										 </figure>
+										 <div class="card-body p-4">
+											 <div class="partner-name">Toko Colomadu</div>
+											 <h4 class="product-title" title="Kursi Roda Standar Ruji">Kursi Roda Standar Ruji</h4>
+											 <h5 class="mb-0">Rp. 190.000,00</h5>
+										 </div>
+									 </a>
+								</figure>
+							</div>
+							<div class="col-md-6 col-xl-4">
+								<figure class="itooltip itooltip-primary rounded shadow-lg" title='<h6 class="mb-0">Kursi Roda Standar Ruji</h6>'>
+									<a href="product-detail.html" class="card card-product">
+										 <figure class="card-img-top">
+											 <img class="img-fluid" src="https://sewainkursiroda.com/asset-img/products/01JTT4HDKM2HEA8C458Y5ZZ4S6.webp" srcset="https://sewainkursiroda.com/asset-img/products/01JTT4HDKM2HEA8C458Y5ZZ4S6.webp" alt="Kursi Roda Standar Ruji" />
+											 <span class="badge bg-primary rounded-pill">Disewa</span>
+										 </figure>
+										 <div class="card-body p-4">
+											 <div class="partner-name">Toko Colomadu</div>
+											 <h4 class="product-title" title="Kursi Roda Standar Ruji">Kursi Roda Standar Ruji</h4>
+											 <h5 class="mb-0">Rp. 190.000,00</h5>
+										 </div>
+									 </a>
+								</figure>
+							</div>
+							<div class="col-md-6 col-xl-4">
+								<figure class="itooltip itooltip-primary rounded shadow-lg" title='<h6 class="mb-0">Kursi Roda Standar Ruji</h6>'>
+									<a href="product-detail.html" class="card card-product">
+										 <figure class="card-img-top">
+											 <img class="img-fluid" src="https://sewainkursiroda.com/asset-img/products/01JTT4HDKM2HEA8C458Y5ZZ4S6.webp" srcset="https://sewainkursiroda.com/asset-img/products/01JTT4HDKM2HEA8C458Y5ZZ4S6.webp" alt="Kursi Roda Standar Ruji" />
+											 <span class="badge bg-primary rounded-pill">Disewa</span>
+										 </figure>
+										 <div class="card-body p-4">
+											 <div class="partner-name">Toko Colomadu</div>
+											 <h4 class="product-title" title="Kursi Roda Standar Ruji">Kursi Roda Standar Ruji</h4>
+											 <h5 class="mb-0">Rp. 190.000,00</h5>
+										 </div>
+									 </a>
+								</figure>
+							</div>
+							<div class="col-md-6 col-xl-4">
+								<figure class="itooltip itooltip-primary rounded shadow-lg" title='<h6 class="mb-0">Kursi Roda Standar Ruji</h6>'>
+									<a href="product-detail.html" class="card card-product">
+										 <figure class="card-img-top">
+											 <img class="img-fluid" src="https://sewainkursiroda.com/asset-img/products/01JTT4HDKM2HEA8C458Y5ZZ4S6.webp" srcset="https://sewainkursiroda.com/asset-img/products/01JTT4HDKM2HEA8C458Y5ZZ4S6.webp" alt="Kursi Roda Standar Ruji" />
+											 <span class="badge bg-primary rounded-pill">Disewa</span>
+										 </figure>
+										 <div class="card-body p-4">
+											 <div class="partner-name">Toko Colomadu</div>
+											 <h4 class="product-title" title="Kursi Roda Standar Ruji">Kursi Roda Standar Ruji</h4>
+											 <h5 class="mb-0">Rp. 190.000,00</h5>
+										 </div>
+									 </a>
+								</figure>
+							</div>
+							<div class="col-md-6 col-xl-4">
+								<figure class="itooltip itooltip-primary rounded shadow-lg" title='<h6 class="mb-0">Kursi Roda Standar Ruji</h6>'>
+									<a href="product-detail.html" class="card card-product">
+										 <figure class="card-img-top">
+											 <img class="img-fluid" src="https://sewainkursiroda.com/asset-img/products/01JTT4HDKM2HEA8C458Y5ZZ4S6.webp" srcset="https://sewainkursiroda.com/asset-img/products/01JTT4HDKM2HEA8C458Y5ZZ4S6.webp" alt="Kursi Roda Standar Ruji" />
+											 <span class="badge bg-primary rounded-pill">Disewa</span>
+										 </figure>
+										 <div class="card-body p-4">
+											 <div class="partner-name">Toko Colomadu</div>
+											 <h4 class="product-title" title="Kursi Roda Standar Ruji">Kursi Roda Standar Ruji</h4>
+											 <h5 class="mb-0">Rp. 190.000,00</h5>
+										 </div>
+									 </a>
+								</figure>
+							</div>
+							<div class="col-md-6 col-xl-4">
+								<figure class="itooltip itooltip-primary rounded shadow-lg" title='<h6 class="mb-0">Kursi Roda Standar Ruji</h6>'>
+									<a href="product-detail.html" class="card card-product">
+										 <figure class="card-img-top">
+											 <img class="img-fluid" src="https://sewainkursiroda.com/asset-img/products/01JTT4HDKM2HEA8C458Y5ZZ4S6.webp" srcset="https://sewainkursiroda.com/asset-img/products/01JTT4HDKM2HEA8C458Y5ZZ4S6.webp" alt="Kursi Roda Standar Ruji" />
+											 <span class="badge bg-primary rounded-pill">Disewa</span>
+										 </figure>
+										 <div class="card-body p-4">
+											 <div class="partner-name">Toko Colomadu</div>
+											 <h4 class="product-title" title="Kursi Roda Standar Ruji">Kursi Roda Standar Ruji</h4>
+											 <h5 class="mb-0">Rp. 190.000,00</h5>
+										 </div>
+									 </a>
+								</figure>
+							</div>
+						</div>
+						<nav class="d-flex justify-content-center mt-8" aria-label="pagination">
+							<ul class="pagination">
+								<li class="page-item disabled">
+									<a class="page-link" href="#" aria-label="Previous">
+										<span aria-hidden="true"><i class="uil uil-arrow-left"></i></span>
+									</a>
+								</li>
+								<li class="page-item active"><a class="page-link" href="#">1</a></li>
+								<li class="page-item"><a class="page-link" href="#">2</a></li>
+								<li class="page-item"><a class="page-link" href="#">3</a></li>
+								<li class="page-item">
+									<a class="page-link" href="#" aria-label="Next">
+										<span aria-hidden="true"><i class="uil uil-arrow-right"></i></span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
 				</div>
-				<!--/.row -->
 			</div>
 		</section>
+	</div>
+
+	<div class="modal fade" id="modal-02" tabindex="-1">
+		<div class="modal-dialog modal-dialog-centered modal-lg">
+			<div class="modal-content text-center">
+				<div class="modal-body">
+					<button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					
+					<ul class="nav nav-tabs nav-pills">
+						<li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab1-1"><i class="uil uil-phone-volume pe-1"></i><span>Jual Baru</span></a> </li>
+						<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab1-2"><i class="uil uil-phone-volume pe-1"></i><span>Jual Second</span></a> </li>
+						<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab1-3"><i class="uil uil-shield-exclamation pe-1"></i><span>Sewa</span></a> </li>
+						<li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab1-4"><i class="uil uil-laptop-cloud pe-1"></i><span>Spareparts</span></a> </li>
+					</ul>
+
+					<div class="tab-content">
+						<div class="tab-pane fade show active" id="tab1-1">
+							<div class="row">
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Kursi Roda</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Bed Pasien</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Walker Lipat</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Kruk Ketiak</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Kursi Roda</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Bed Pasien</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Walker Lipat</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Kruk Ketiak</a>
+								</div>
+							</div>
+						</div>
+						<!--/.tab-pane -->
+						<div class="tab-pane fade" id="tab1-2">
+							<div class="row">
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Kursi Roda</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Bed Pasien</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Walker Lipat</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Kruk Ketiak</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Kursi Roda</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Bed Pasien</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Walker Lipat</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Kruk Ketiak</a>
+								</div>
+							</div>
+						</div>
+						<!--/.tab-pane -->
+						<div class="tab-pane fade" id="tab1-3">
+							<div class="row">
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Kursi Roda</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Bed Pasien</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Walker Lipat</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Kruk Ketiak</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Kursi Roda</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Bed Pasien</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Walker Lipat</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Kruk Ketiak</a>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="tab1-4">
+							<div class="row">
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Kursi Roda</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Bed Pasien</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Walker Lipat</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Kruk Ketiak</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Kursi Roda</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Bed Pasien</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Walker Lipat</a>
+								</div>
+								<div class="col-6 col-md-4 col-lg-3">
+									<a href="#">Kruk Ketiak</a>
+								</div>
+							</div>
+						</div>
+						<!--/.tab-pane -->
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<!-- Footer -->
@@ -241,5 +569,26 @@
 	<script src="src/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="src/js/plugins.js"></script>
 	<script src="src/js/scripts.js"></script>
+
+	<script>
+		function formatPriceInput(input) {
+			input.addEventListener("input", function () {
+				let value = this.value.replace(/\D/g, "");
+				this.value = value.replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+			});
+
+			input.addEventListener("keypress", function (e) {
+				if (!/[0-9]/.test(e.key)) {
+					e.preventDefault();
+				}
+			});
+		}
+
+		const priceMinInput = document.getElementById("price-min");
+		const priceMaxInput = document.getElementById("price-max");
+
+		[priceMinInput, priceMaxInput].forEach(formatPriceInput);
+	</script>
+
 </body>
 </html>

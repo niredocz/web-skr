@@ -38,6 +38,36 @@
   -webkit-box-orient: vertical;
 }
 
+.price-filter {
+  position: relative;
+  overflow: hidden;
+
+  .price-label {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    height: calc(100% - 8px);
+    border-radius: .2rem;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 20px;
+    white-space: nowrap;
+    display: flex;
+    align-self: stretch;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 12px;
+    background-color: var(--color-chip-disabled, #F3F4F5);
+    color: var(--color-text-low, rgba(49, 53, 59, 0.68));
+    padding-right: 8px;
+    border: 1px solid rgba(8, 60, 130, 0.06);
+  }
+
+  input, label {
+    padding-left: 55px;
+  }
+}
+
 footer .img-footer {
   max-width: 200px;
 }
